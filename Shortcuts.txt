@@ -1,0 +1,26 @@
+Telescope:
+<leader> sh	-> help
+<leader> sk     -> search Keymaps
+
+
+<leader> sf     -> search File
+<leader> sg     -> search Text in File
+<leader> space space     -> search existing buffer
+
+
+
+
+Lsp:
+grn	-> renam var under cursor
+gra	-> execute code action
+grr	-> find refrence
+gri	-> go to implementation
+grd	-> go to definition
+grD	-> got to Declaration
+gO	-> fuzzy find all symbol in Doc
+gW	-> fins all symbol in project
+grt	-> go to definition aka variable type
+
+
+Neotree
+<leader>n -> oben neotree
