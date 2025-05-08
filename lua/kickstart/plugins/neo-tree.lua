@@ -22,5 +22,5 @@ return {
       },
     },
   },
-  vim.keymap.set('n', '<leader>n', ':Neotree filesystem reveal left<CR>', {}),
+  vim.keymap.set('n', '<leader>z', ':Neotree filesystem reveal left<CR>', {}),
 }
