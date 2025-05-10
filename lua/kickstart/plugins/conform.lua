@@ -38,7 +38,7 @@ return {
         javascript = { 'prettier' },
         cpp = { 'ast_grep' },
         c = { 'ast_grep' },
-        vhdl = { 'vhdl' },
+        vhdl = { 'vsg' },
         asm = { 'assembly' },
       },
     },
