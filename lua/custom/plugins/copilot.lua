@@ -1,5 +1,5 @@
 return {
-  'zbirenbaum/copilot.lua',
+  'github/copilot.vim',
   cmd = 'Copilot',
   event = 'InsertEnter',
   config = function()
