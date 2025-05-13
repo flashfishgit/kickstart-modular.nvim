@@ -53,6 +53,8 @@ require('lazy').setup({
 
   require 'custom.plugins.copilot',
 
+  require 'custom.plugins.autosessions',
+
   require 'kickstart.plugins.debug',
   -- require 'kickstart.plugins.indent_line',
   require 'kickstart.plugins.lint',
