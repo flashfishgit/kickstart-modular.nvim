@@ -14,5 +14,21 @@ return {
     vim.keymap.set('n', '<localleader>lq', '<cmd>VimtexStop<CR>', { desc = 'Stop compilation', silent = true })
     vim.keymap.set('n', '<localleader>lc', '<cmd>VimtexClean<CR>', { desc = 'Clean aux files', silent = true })
     vim.keymap.set('n', '<localleader>lv', '<cmd>VimtexView<CR>', { desc = 'View PDF', silent = true })
+
+    -- Add `-shell-escape` option for latexmk
+    vim.g.vimtex_compiler_latexmk = {
+      backend = 'nvim',
+      build_dir = '',
+      callback = 1,
+      continuous = 1,
+      executable = 'latexmk',
+      options = {
+        '-shell-escape', -- enable shell escape
+        '-verbose',
+        '-file-line-error',
+        '-synctex=1',
+        '-interaction=nonstopmode',
+      },
+    }
   end,
 }

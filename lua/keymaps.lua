@@ -50,7 +50,7 @@ vim.api.nvim_set_keymap('n', '<C-k>', '<C-w>k', { noremap = true, silent = true 
 vim.api.nvim_set_keymap('n', '<C-l>', '<C-w>l', { noremap = true, silent = true })
 
 -- Map <F5> to run the build and launch the terminal in Lua
-vim.api.nvim_set_keymap('n', '<F5>', ':!./run.sh<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>r', ':!./run.sh<CR>', { noremap = true, silent = true })
 
 vim.keymap.set('n', '<Leader>cd', function()
   local dir = vim.fn.expand '%:p:h'
